@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Helvetica Light";
+  src: local("Helvetica Light"), url(./fonts/Helvetica.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Light", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

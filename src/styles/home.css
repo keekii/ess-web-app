@@ -1,0 +1,244 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.headerContainer {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(168, 168, 168, 0.61);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(168, 168, 168, 0.61);
+  box-shadow: 0px 3px 7px 0px rgba(168, 168, 168, 0.61);
+}
+
+.logo {
+  object-fit: contain;
+  margin-left: 20px;
+  height: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navContainer {
+  color: gray;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  background-color: white;
+  align-items: center;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e6e6e6;
+  width: 100%;
+}
+
+.searchContainer {
+  background-color: white;
+
+  color: red;
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.searchContainer > input {
+  border: none;
+  padding: 5px;
+  outline-width: 0px;
+}
+
+.subNavContainer {
+  color: black;
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.navContainer > Link {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.navIcon {
+  margin-left: 20px;
+}
+
+.subNavContainer > span {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.banner {
+  /* background: url("https://cdn.game.tv/game-tv-content/images_3/cdf6ea9f8b79f396ac09484f20606dc2/Banners.jpg");
+  height: 450px;
+  position: relative; */
+}
+
+.bannerInfo {
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: auto;
+}
+
+.bannerInfo > button {
+  background-color: transparent;
+  color: white;
+  text-transform: inherit;
+  padding: 10px;
+  border: 1px white solid;
+  border-radius: 20px;
+}
+
+.bannnerNav {
+  width: 100%;
+  background-color: transparent;
+}
+
+.bannerNavContent {
+  color: gray;
+  background: white;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.line {
+  color: gray;
+  background-color: gray;
+  border: gray solid 2px;
+}
+
+.bannerDetail {
+  border-bottom: solid gray 3px;
+  height: fit-content;
+  width: 300px;
+}
+
+.text-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.contentContainer {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.contentContainer > ul li {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.line-hr {
+  border: #38c8f4 3px solid;
+  width: 50px;
+  margin-left: 0px;
+}
+
+.selected {
+  font-weight: bold;
+  color: #38c8f4;
+  border-bottom: #38c8f4 solid 3px;
+}
+
+.homeProductList {
+  background-color: #dfe4eb;
+  height: 400px;
+  display: flex;
+}
+
+.listInfoBox {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productListBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
+  height: 100%;
+}
+
+.infoBox {
+  padding: 60px;
+}
+
+.productCard {
+  width: 100%;
+  height: 280px;
+  padding: 30px;
+  margin: 20px;
+  background-color: white;
+}
+
+.productTitle {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #bdc1c7;
+}
+
+h1,
+h4 {
+  color: #474747;
+}
+
+.quoteBox {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9c9c9c;
+}
+
+.bottomBar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9c9c9c;
+  background-color: #94a0aa;
+}
+
+.marginText {
+  margin-top: 10px;
+}
+.contactBox {
+  line-height: 45px;
+}
